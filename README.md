@@ -6,13 +6,13 @@ A neurodivergent-friendly framework for learning new concepts while staying prod
 
 ## TL;DR
 
-1. **Clarify Your Purpose:** What problem are you solving? What’s the smallest thing you can build to make progress?
-2. **Isolate and Break It Down:** Focus on one concept or problem at a time. Identify 3–5 key components or tasks.
-3. **Create Proof of Concept(s):** Build small, quick experiments to test your understanding.
-4. **Timebox Your Learning:** Work in 25-minute sprints with short breaks.
-5. **Build First, Research Second:** Start getting hands-on immediately; research only when stuck.
-6. **Document & Reflect:** Write down what you learned and any gaps to revisit later.
-7. **Teach It Back:** Share your learnings through PR reviews, blog posts, or open-source contributions.
+1. :dart: **Clarify Your Purpose:** What problem are you solving? What’s the smallest thing you can build to make progress?
+2. :white_check_mark: **Isolate and Break It Down:** Focus on one concept or problem at a time. Identify 3–5 key components or tasks.
+3. :rocket: **Create Proof of Concept(s):** Build small, quick experiments to test your understanding.
+4. :alarm_clock: **Timebox Your Learning:** Work in 25-minute sprints with short breaks.
+5. :hammer_and_wrench: **Build First, Research Second:** Start getting hands-on immediately; research only when stuck.
+6. :books: **Document & Reflect:** Write down what you learned and any gaps to revisit later.
+7. :mortar_board: **Teach It Back:** Share your learnings through PR reviews, blog posts, or open-source contributions.
 
 Key Takeaways:
 
@@ -51,7 +51,7 @@ This repository introduces an actionable framework that helps you **learn fast**
 
 Why a README instead of a blog post? Because I’m a software engineer—and I’ve included Pull Request and Issue templates that you can integrate directly into your projects to achieve better learning outcomes while actually getting work done.
 
-Ready to take control of your learning, avoid AI shortcuts, and build lasting competence? Let’s dive in! 🎉
+Ready to take control of your learning, avoid AI shortcuts, and build lasting competence? Let’s dive in! :tada:
 
 ## Motivation
 
@@ -63,50 +63,48 @@ As software engineers, we’re constantly faced with situations where we need to
 - Or you try to learn systematically, but the sheer volume of information leaves you overwhelmed and stuck.
 - Or worse—you give in to time pressure, ask your favorite AI tool for help, solve the problem...and realize later that you didn’t actually learn anything from it.
 
-Sound familiar? You’re not alone. And either way, real learning doesn't happen anymore.
-
-Sound familiar? You’re not alone—and it’s not your fault. The traditional ways we’re taught to learn don’t always work for everyone—especially neurodivergent thinkers who thrive on structure, momentum, and tangible results. And now, with AI tools making it easier than ever to bypass deep understanding, real learning often takes a backseat to quick fixes.
+Sound familiar? You’re not alone. The traditional ways we’re taught to learn don’t always work for everyone—especially neurodivergent thinkers who thrive on structure, momentum, and tangible results. And now, with AI tools making it easier than ever to bypass deep understanding, real learning often takes a backseat to quick fixes.
 
 This repository was born out of frustration with those challenges. Learn Fast is designed to help you:
 
-- **Learn effectively** without getting sidetracked by unnecessary details or endless research spirals.
-- **Stay productive** by focusing on real-world applications instead of abstract theory or passive study.
-- **Build confidence** through small wins and incremental progress that reinforce what you’ve learned.
-- **Develop lasting competence** by prioritizing understanding over AI-first problem-solving shortcuts.
+:white_check_mark: **Learn effectively** without getting sidetracked by unnecessary details or endless research spirals.
+:white_check_mark: **Stay productive** by focusing on real-world applications instead of abstract theory or passive study.
+:white_check_mark: **Build confidence** through small wins and incremental progress that reinforce what you’ve learned.
+:white_check_mark: **Develop lasting competence** by prioritizing understanding over AI-first problem-solving shortcuts.
 
 Whether you’re debugging a tricky issue, exploring a new technology, or mastering software design principles, this approach will help you learn fast while actually getting things done—without sacrificing depth or clarity along the way.
 
-Let’s turn confusion into clarity and frustration into progress! 🎉
+Let’s turn confusion into clarity and frustration into progress! :tada:
 
 ## Context
 
 The Learn Fast framework is built on two key principles: Minimum Viable Knowledge and Project-Based Learning.
 
-1. Minimum Viable Knowledge
+### Minimum Viable Knowledge
 
 Focus on _the smallest amount of knowledge you need to solve a problem or build something useful_. Forget about mastering everything upfront—learn just enough to take action.
 
 Example: If you’re learning "observability," start with:
 
-- Collecting metrics for one service
-- Visualizing those metrics in a dashboard
-- Adding basic alerts
+:one: Collecting metrics for one service.
+:two: Visualizing those metrics in a dashboard.
+:three: Adding basic alerts.
 
 Once that’s working, expand incrementally (e.g., distributed tracing, log aggregation).
 
-2. Project-Based Learning
+### Project-Based Learning
 
 _Learn by doing._ Build small, focused projects that apply the concept you’re trying to learn. This approach turns abstract ideas into tangible skills while keeping you productive.
 
 Example: Instead of reading endless articles about "design patterns," refactor one class in your codebase using the Observer Pattern. Then try another pattern like Factory in a separate module.
 
-3. Why Focus on Action?
+### Why Focus on Action?
 
 Avoid getting stuck in endless research or theory—it kills momentum and leaves you overwhelmed. Action-based learning helps you:
 
-- Retain concepts better by applying them immediately.
-- Identify gaps in understanding naturally as you build.
-- Stay motivated by creating something tangible.
+:rocket: Retain concepts better by applying them immediately.
+:mag: Identify gaps in understanding naturally as you build.
+:dart: Stay motivated by creating something tangible.
 
 ## Usage
 
@@ -197,7 +195,7 @@ When researching:
 
 Pro Tip: Start with the simplest possible implementation: "Make it work before making it right; make it right before making it fast."
 
-### Step 4: Document & Reflect
+### Step 5: Document & Reflect
 
 After each session, take a few minutes to document what you’ve learned and identify gaps in your understanding. This reinforces retention and helps guide your next steps.
 
@@ -294,4 +292,4 @@ For a detailed list of core skills every software engineer should master without
 
 Experiment with the Learn Fast framework, adapt it to your needs, and share your feedback or improvements via Issues or Pull Requests.
 
-Let’s keep learning—and building—together! 🎉
+Let’s keep learning—and building—together! :tada:
