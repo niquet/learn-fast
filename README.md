@@ -22,7 +22,21 @@ Key Takeaways:
 
 ## Table of Contents
 
-- []()
+- [Description](#description)
+- [Motivation](#motivation)
+- [Context](#context)
+  - [Minimum Viable Knowledge](#minimum-viable-knowledge)
+  - [Project-Based Learning](#project-based-learning)
+  - [Why Focus on Action?](#why-focus-on-action)
+- [Usage](#usage)
+  - [Step 0: Clarify Your Purpose](#step-0-clarify-your-purpose)
+  - [Step 1: Isolate and Break Down the Topic](#step-1-isolate-and-break-down-the-topic)
+  - [Step 2: Create Proof of Concept(s)](#step-2-create-proof-of-concepts)
+  - [Step 3: Timebox Your Learning](#step-3-timebox-your-learning)
+  - [Step 4: Build First, Research Second](#step-4-build-first-research-second)
+  - [Step 5: Document & Reflect](#step-5-document--reflect)
+  - [Step 6: Teach It Back](#step-6-teach-it-back)
+- [Tips](#tips)
 
 ## Description
 
