@@ -1,6 +1,6 @@
 # Learn Fast
 
-A neurodivergent-friendly approach for learning new concepts while staying productive.
+A neurodivergent-friendly framework for learning new concepts while staying productive.
 
 <img src="assets/images/learn-fast.png" width="100.00%" height="auto">
 
