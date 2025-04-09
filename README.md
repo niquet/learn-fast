@@ -1,263 +1,283 @@
 # Learn Fast
 
-*A neurodivergent-friendly system for mastering complex technical topics.*
+A neurodivergent-friendly approach for learning new concepts while staying productive.
+
+<img src="assets/images/learn-fast.png" width="100.00%" height="auto">
 
 ## TL;DR
 
-1. **Clarify** and isolate which problem you are trying to solve
-2. **Identify** the smallest unit of knowledge that would allow you to do something useful
-3. **Break down** the topic(s) into small tasks
-4. **Focus** intensely on one task for 25 minutes
-5. **Immediately apply** the concept to a real project (simplest possible implementation)
-6. **Identify any gaps** in your understanding
-7. **Adjust** your approach for the next topic
-8. **Celebrate** progress, no matter how small :tada:
+1. **Clarify Your Purpose:** What problem are you solving? What’s the smallest thing you can build to make progress?
+2. **Isolate and Break It Down:** Focus on one concept or problem at a time. Identify 3–5 key components or tasks.
+3. **Create Proof of Concept(s):** Build small, quick experiments to test your understanding.
+4. **Timebox Your Learning:** Work in 25-minute sprints with short breaks.
+5. **Build First, Research Second:** Start getting hands-on immediately; research only when stuck.
+6. **Document & Reflect:** Write down what you learned and any gaps to revisit later.
+7. **Teach It Back:** Share your learnings through PR reviews, blog posts, or open-source contributions.
 
-Isolate the problem/concept first. Then create proof of concept(s). Rely on online resources and StackOverflow before using AI tools.
+Key Takeaways:
 
-## Advice
+- Isolate the problem first, then create proof of concepts.
+- Use forums like StackOverflow before turning to AI tools, and only after clarifying your question.
+- Build something concrete—action beats abstraction every time!
 
-- Effective learning is active, not passive
+## Table of Contents
 
-Identify knowledge gaps through questions
+- []()
+
+## Description
+
+Imagine these two scenarios:
+
+1. You encounter a problem and keep spiraling down a rabbit hole, chasing one concept after another, only to end up overwhelmed and stuck.
+2. You try to learn something new, but after 5 minutes and 491 browser tabs, you feel lost, frustrated—and no closer to solving anything.
+
+Sound familiar? If so, this README is for you.
+
+This repository introduces an actionable framework that helps you **learn fast** while solving real-world problems. It’s designed for software engineers (and anyone else) who want to focus on **project-based learning** and **minimum viable knowledge** without getting sidetracked or overwhelmed.
+
+Why a README instead of a blog post? Because I’m a software engineer—and I’ve included Pull Request and Issue templates that you can integrate directly into your projects to achieve better learning outcomes while actually getting work done.
+
+Ready to take control of your learning, avoid AI shortcuts, and build lasting competence? Let’s dive in! 🎉
+
+## Motivation
+
+Learning is hard. Staying focused while learning something new? Harder. Churning out tasks at work while trying to pick up the concepts you need to hit deadlines? Even harder. And avoiding over-reliance on AI tools while still learning on the job? That can feel impossible.
+
+As software engineers, we’re constantly faced with situations where we need to pick up new skills or solve unfamiliar problems—fast. But here’s the catch:
+
+- You start researching, and before you know it, you’ve opened 20 tabs and gone down a rabbit hole of unrelated topics.
+- Or you try to learn systematically, but the sheer volume of information leaves you overwhelmed and stuck.
+- Or worse—you give in to time pressure, ask your favorite AI tool for help, solve the problem...and realize later that you didn’t actually learn anything from it.
+
+Sound familiar? You’re not alone. And either way, real learning doesn't happen anymore.
+
+Sound familiar? You’re not alone—and it’s not your fault. The traditional ways we’re taught to learn don’t always work for everyone—especially neurodivergent thinkers who thrive on structure, momentum, and tangible results. And now, with AI tools making it easier than ever to bypass deep understanding, real learning often takes a backseat to quick fixes.
+
+This repository was born out of frustration with those challenges. Learn Fast is designed to help you:
+
+- **Learn effectively** without getting sidetracked by unnecessary details or endless research spirals.
+- **Stay productive** by focusing on real-world applications instead of abstract theory or passive study.
+- **Build confidence** through small wins and incremental progress that reinforce what you’ve learned.
+- **Develop lasting competence** by prioritizing understanding over AI-first problem-solving shortcuts.
+
+Whether you’re debugging a tricky issue, exploring a new technology, or mastering software design principles, this approach will help you learn fast while actually getting things done—without sacrificing depth or clarity along the way.
+
+Let’s turn confusion into clarity and frustration into progress! 🎉
+
+## Context
+
+The Learn Fast framework is built on two key principles: Minimum Viable Knowledge and Project-Based Learning.
+
+1. Minimum Viable Knowledge
+
+Focus on _the smallest amount of knowledge you need to solve a problem or build something useful_. Forget about mastering everything upfront—learn just enough to take action.
+
+Example: If you’re learning "observability," start with:
+
+- Collecting metrics for one service
+- Visualizing those metrics in a dashboard
+- Adding basic alerts
+
+Once that’s working, expand incrementally (e.g., distributed tracing, log aggregation).
+
+2. Project-Based Learning
+
+_Learn by doing._ Build small, focused projects that apply the concept you’re trying to learn. This approach turns abstract ideas into tangible skills while keeping you productive.
+
+Example: Instead of reading endless articles about "design patterns," refactor one class in your codebase using the Observer Pattern. Then try another pattern like Factory in a separate module.
+
+3. Why Focus on Action?
+
+Avoid getting stuck in endless research or theory—it kills momentum and leaves you overwhelmed. Action-based learning helps you:
+
+- Retain concepts better by applying them immediately.
+- Identify gaps in understanding naturally as you build.
+- Stay motivated by creating something tangible.
+
+## Usage
+
+Here’s the actionable framework for learning fast:
+
+### Step 0: Clarify Your Purpose
+
+Start by grounding yourself in **why** you’re learning this concept.
+
+- [ ] What problem am I trying to solve?
+- [ ] What outcome do I need?
+- [ ] What’s the smallest thing I can build to make progress?
+
+Identify the smallest unit of knowledge that would allow you to do something useful.
+
+**Example:**
+
+"I need to debug latency issues in my microservices using distributed tracing. I don’t know how distributed tracing works. Maybe I can find an introduction for the OTEL SDK in the language I’m using."
+
+### Step 1: Isolate and Break Down the Topic
+
+Before diving in, isolate what you’re trying to learn or solve. Focus on one concept or problem at a time. Then break it down into manageable chunks or use cases that take just a few minutes to understand.
+
+**Checklist:**
+
+- [ ] What are the key building blocks of this concept?
+- [ ] What’s essential vs. optional for my current goal?
+- [ ] Can I align these components with small, actionable tasks?
+
+**Example for "distributed tracing":**
+
+1. Spans and trace IDs
+2. Context propagation between services
+3. Visualizing traces in a dashboard (e.g., Jaeger)
+
+If you’re unsure where to start, **try ADEPT** to get a sense of the topic:
+
+- **Analogy:** Find a familiar concept to compare with the new topic.
+- **Diagram:** Sketch the concept visually (even if it’s rough).
+- **Example:** Look for concrete examples or code snippets online.
+- **Plain English:** Try explaining it in simple terms.
+- **Technical Definition:** Only then dive into formal terminology.
+
+Tip: Don’t spend more than 10–15 minutes on this step—analysis paralysis is your enemy! Get the gist by reading introductions. Create a "read later" list for anything non-essential to avoid rabbit holes.
+
+### Step 2: Create Proof of Concept(s)
+
+Once you’ve isolated the problem or concept, start building small proof-of-concept implementations. These should be quick and focused experiments designed to test your understanding or solve part of the problem.
+
+**Checklist:**
+
+- [ ] Have I defined a single task that can be completed in <= 25 minutes?
+- [ ] Am I focusing on making it work before making it perfect?
+
+**Example:**
+
+"Add spans to one service and visualize them—don’t worry about connecting multiple services yet."
+
+Intermediate Step: Before turning to AI tools, rely on forums like StackOverflow, GitHub discussions, or even rubber duck debugging (explaining your problem out loud). These steps help you clarify your thinking and expose gaps in understanding before outsourcing answers.
+
+### Step 3: Timebox Your Learning
+
+Work in short, focused sprints using timeboxing techniques like Pomodoro:
+
+- Spend 25 minutes implementing something tangible (even if it’s broken).
+- Take a 5-minute break to reflect or reset before continuing.
+
+Use the "touch it once" principle: work on the task until completion or until time runs out. If distracted, gently redirect attention without self-criticism.
+
+Pro Tip: If you hit a blocker during implementation, pause and ask yourself:
+
+- What’s not working? Why?
+- What specific question do I need answered right now?
+
+### Step 4: Build First, Research Second
+
+Start getting hands-on immediately—even if you don’t fully understand the concept yet. Research only when you hit a blocker or error that prevents progress.
+
+**Checklist:**
+
+- [ ] Am I focusing on isolated tasks (not major architectural changes)?
+- [ ] Have I tried solving this with existing knowledge before researching?
+
+When researching:
+
+1. Look for similar problems on forums like StackOverflow or GitHub issues first.
+2. Use AI tools only as a last resort after clarifying your question.
+
+Pro Tip: Start with the simplest possible implementation: "Make it work before making it right; make it right before making it fast."
+
+### Step 4: Document & Reflect
+
+After each session, take a few minutes to document what you’ve learned and identify gaps in your understanding. This reinforces retention and helps guide your next steps.
+
+**Checklist:**
+
+- [ ] What did I learn today? (1–2 sentences)
+- [ ] What gaps remain in my understanding? (specific questions)
+
+Example: "I understand how spans work but not how parent-child relationships are created."
+
+Use techniques like the Feynman Technique for deeper understanding:
+
+1. Write down the concept at the top of a page.
+2. Explain it in simple terms as if teaching someone else (or a rubber duck).
+3. Identify gaps in your explanation—these are areas to revisit later.
+
+### Step 6: Teach It Back
+
+You truly understand something when you can teach it to others or apply it in new contexts. Teaching also exposes gaps you might not notice otherwise.
+
+Here are ways to "teach back" what you’ve learned:
+
+1. **Pull Request Reviews:** Submit a PR showcasing your implementation and ask reviewers specific questions about areas you're unsure of.
+2. **Write About It:** Create a blog post, README section, or internal documentation explaining what you learned.
+3. **Open Source Contribution:** Apply what you’ve learned by contributing to an open-source project.
+4. **Pair Programming:** Teach someone else while pairing on similar tasks.
+
+Pro Tip: Teaching doesn’t have to be formal—recording yourself explaining something (e.g., Loom videos) can be just as effective.
+
+## Tips
+
+Here are some practical tips to help you stay focused, productive, and effective while learning.
+
+### Make Tasks Actionable
+
+Use the SMART framework to turn vague goals into actionable tasks:
+
+- **Specific:** "Implement a logging system that captures errors" instead of "learn logging."
+- **Measurable:** Define concrete outcomes (e.g., "Create a working prototype with 3 design patterns").
+- **Achievable:** Choose tasks you can complete with your current resources.
+- **Relevant:** Ensure tasks directly apply to your work or projects.
+- **Time-bound:** Set deadlines for each milestone.
+
+### Identify Knowledge Gaps
+
+Ask yourself:
 
 - What problems am I trying to solve?
 - What tasks am I currently unable to complete?
 - What concepts do I struggle to explain to others?
 - Which errors or issues repeatedly challenge me?
 
-Practice deliberate retrieval
+### Create a "No-AI Zone" for Core Skills
 
-- After learning something, close all resources and try to implement it from memory
-- Only check AI or documentation after you've made a genuine attempt
-- Compare your solution with AI suggestions to identify gaps in understanding
+Some skills should be mastered without relying on AI tools:
 
-Create a "No-AI Zone" for core skills
+- Identify foundational skills (e.g., debugging, version control).
+- Practice these regularly without assistance.
+- Use AI only for reviewing or validating after completing the work independently.
 
-- Identify fundamental skills that you must master without assistance
-- Practice these skills regularly without AI help
-- Use AI only for review after you've completed work independently
+### For Technical Topics
 
-*Below the process.*
+- Decompose by functionality: Break down topics like "debugging" into smaller parts (e.g., setting breakpoints, reading stack traces).
+- Create a dependency tree: Identify which concepts depend on others.
+- Build a learning roadmap: Arrange subtopics from foundational to advanced.
+- Make each task concrete and actionable by using the the SMART Framework:
 
-## Minimum viable knowledge
+### For Abstract Concepts
 
-**0. Clarify your purpose (5-10 minutes)**
+- Find concrete implementations: For example, look at codebases that exemplify software design principles like SOLID.
+- Reverse-engineer examples: Study well-designed systems and identify the principles at work.
+- Apply to your own code: Refactor an existing project using what you’ve learned.
 
-- [ ] What problem am I trying to solve with this knowledge?
-- [ ] Which outcomes am I trying to achieve? (1-3 specific outcomes)
+### Harness Hyperfocus & Creativity
 
-Identify the smallest unit of knowledge that would allow you to do something useful. For example, break "observability" into: metrics collection, log aggregation, trace analysis, and alerting. *Start by breaking down whatever you're trying to learn into specific use cases or bite-sized chunks that take just a few minutes to understand.*
+Leverage neurodivergent strengths like hyperfocus and creative problem-solving:
 
-```
-Example: "I want to implement effective logging in my microservices to troubleshoot issues faster"
-```
+1. Identify your peak focus hours and schedule learning sessions during those times.
+2. Set clear, achievable goals for each session.
+3. Create connections between new concepts and what you already know—visualize how components interact in the bigger picture.
 
-**1. Use the ADEPT method (10-15 minutes)**
+### Last But Not Least
 
-Start by just trying things out to get a feel for the topic. Get the gist by reading introductions, first/last paragraphs of sections, and code samples. Create a "read later" list for interesting but non-essential details to avoid rabbit holes.
+- Build a personal knowledge base—any format that works for you.
+- Regularly review and update your notes and code snippets.
+- Gamify progress by setting up rewards for milestones or turning learning into a game.
+- Use physical movement to process information (e.g., take short walks between sessions).
 
-- [ ] Analogy: Find a familiar concept to compare with the new topic
-- [ ] Diagram: Sketch the concept visually
-- [ ] Example: Find concrete instances of the concept in action
-- [ ] Plain English: Explain it in simple terms
-- [ ] Technical Definition: Only then dive into formal terminology
+## Wrap-Up & Next Steps
 
-**3. Create a topic map** (10-15 minutes)
+Mastering new concepts and solving problems effectively is about more than just completing tasks—it’s about building lasting competence. Some skills form the backbone of engineering expertise and should be learned independently of AI tools or automation. These are essential for developing mental models, problem-solving confidence, and adaptability in a rapidly evolving industry.
 
-- [ ] Draw the main topic in the center of a page
-- [ ] Branch out into 3-7 subtopics (no more to avoid overwhelm)
-- [ ] For each subtopic, note 1-2 specific skills to develop
+For a detailed list of core skills every software engineer should master without AI, check out [LEARN.md](LEARN.md).
 
-For "software design principles," branches might include: SOLID principles, design patterns, architecture styles. Use colors and symbols to make it visually engaging.
+Experiment with the Learn Fast framework, adapt it to your needs, and share your feedback or improvements via Issues or Pull Requests.
 
-**3. Break down the topics into small tasks** (5-10 minutes)
-
-- [ ] Break each subtopic into tasks requiring 25 minutes or less
-- [ ] Make each task concrete and actionable
-
-Make each task concrete and actionable by using the the SMART Framework:
-
-- **Specific:** "Implement a logging system that captures errors in my application" instead of "learn logging"
-- **Measurable:** Define concrete outcomes (e.g., "Create a working prototype that implements 3 design patterns")
-- **Achievable:** Choose goals you can accomplish with your current resources
-- **Relevant:** Ensure it applies to your work or projects
-- **Time-bound:** Set deadlines for each learning milestone
-
-```
-Example: "Within the next 25 minutes, write a function that implements the Observer pattern" instead of "Learn the Observer pattern"
-```
-
-## Hands-on approach
-
-**4. Set up your environment** (5 minutes)
-
-- [ ] Clear physical and digital workspace
-- [ ] Turn on "Do Not Disturb" mode on all devices
-- [ ] Have water and a small snack ready
-- [ ] Set a visual timer for your session
-
-**5. Promodoro learning blocks** (25 minutes each)
-
-- [ ] Focus intensely on one task for 25 minutes
-- [ ] Use the "touch it once" principle: work on the task until completion or time runs out
-- [ ] If distracted, gently redirect attention without self-criticism
-
-**6. Active processing** (5 minutes)
-
-- [ ] Stand up and move physically
-- [ ] Verbally summarize what you just learned
-- [ ] Sketch a quick diagram of the concept
-- [ ] Do NOT check email or social media during this break
-
-## Reinforcement
-
-**7. Apply what you've learned** (25-50 minutes)
-
-- [ ] Immediately apply the concept to a real project
-- [ ] Start with the simplest possible implementation
-- [ ] Focus on making it work before making it right
-- [ ] Focus on making it right before making it fast
-
-**8. Teach-back (immersion)** (10 minutes)
-
-- [ ] Explain the concept out loud as if teaching someone
-- [ ] Record a voice memo explaining the concept
-- [ ] Write a brief explanation in your own words
-- [ ] Identify any gaps in your understanding
-
-Use the Feynman Technique to truly understand difficult concepts:
-
-- Write down the concept at the top of a page
-- Explain it in simple terms as if teaching someone else
-- Identify gaps in your understanding
-- Go back to source material to fill those gaps
-
-**9. Connect the dots** (5-10 minutes)
-
-- [ ] How does this relate to what I already know?
-- [ ] Find at least two connections to familiar concepts
-- [ ] Update your concept map with these connections
-
-Learn from patterns by examining multiple examples of the concept. Search GitHub for code examples implementing the technique you're learning.
-
-## Retention
-
-**10. Spaced repetition** (5 minutes daily)
-
-- [ ] Create flashcards for key concepts
-- [ ] Review them using the Leitner system
-- [ ] Schedule reviews at increasing intervals (1 day, 3 days, 7 days, etc.)
-
-**11. Apply in a project** (varies)
-
-- [ ] Incorporate the new knowledge into a personal or work project
-- [ ] Start small and expand as your confidence grows
-- [ ] Document your implementation process
-
-**12. Reflect and adjsut** (10 minutes)
-
-- [ ] Review what worked and what didn't in your learning process
-- [ ] Adjust your approach for the next topic
-- [ ] Celebrate progress, no matter how small
-
----
-
-## Core skills to master without AI
-
-- Algorithmic thinking
-  - Basic data structures (arrays, linked lists, trees, graphs)
-  - Common algorithms (sorting, searching, traversal)
-  - Complexity analysis (Big O notation)
-  - Problem decomposition
-- Debugging fundamentals
-  - Reading and interpreting error messages
-  - Using breakpoints effectively
-  - Tracing code execution manually
-  - Formulating and testing hypotheses about bugs
-- Core language proficiency
-  - Syntax and semantics of your primary language
-  - Memory management principles
-  - Type systems and type safety
-  - Control flow and error handling
-- System design basics
-  - Component separation and interfaces
-  - State management
-  - Data flow patterns
-  - API design principles
-- Testing discipline
-  - Unit test writing
-  - Test-driven development workflow
-  - Identifying edge cases
-  - Test coverage analysis
-- Version control
-  - Basic Git operations without GUI tools
-  - Branching strategies
-  - Conflict resolution
-  - Reading and understanding commit history
-- Performance optimizations
-  - Identifying bottlenecks
-  - Memory profiling
-  - Execution time analysis
-  - Resource utilization monitoring
-- Security fundamentals
-  - Input validation principles
-  - Authentication vs. authorization
-  - Common vulnerability patterns
-  - Secure coding practices
-  
-**Practical approach**
-
-For Technical Topics
-
-- Decompose by functionality: Break down "debugging" into: setting breakpoints, reading stack traces, logging strategies, etc.
-- Create a dependency tree: Identify which concepts depend on others
-- Build a learning roadmap: Arrange subtopics from foundational to advanced
-
-For Abstract Concepts
-
-- Find concrete implementations: For "software design principles," look for specific codebases that exemplify them
-- Reverse-engineer examples: Study well-designed systems and identify the principles at work
-- Apply to your own code: Refactor an existing project using the principles you're learning
-
----
-
-## 1. Break down complex topics into use cases
-
-- Start by breaking down whatever you're trying to learn into specific use cases or bite-sized chunks that take just a few minutes to understand
-- Instead of "learning observability," focus on "implementing metrics collection for a specific service"
-- Rather than "mastering software design principles," try "applying the Single Responsibility Principle to one class"
-- This approach makes it easier to know when you're done with each chunk, reinforcing your sense of progress
-
----
-
-## Lean into your strengths
-
-- Harness Hyperfocus
-  - Identify your peak focus hours and schedule learning sessions during these times
-  - Set clear, achievable goals for each hyperfocus session
-  - Create a reward system for completing learning milestones
-- Embrace Creative Problem-Solving
-  - Apply systems thinking by considering how new concepts fit into the larger picture
-  - Look for connections between what you're learning and what you already know
-  - Visualize how components interact rather than focusing on isolated parts
-
-## Practical tips
-
-- Build a personal knowledge base
-- Organize code snippets and explanations in a way that makes sense to you
-- Regularly review and update your system
-- Set up a reward system for completing learning milestones
-- Turn learning goals into a game
-- Take short walks between learning sessions to process information
-- Use a standing desk while watching tutorials
-- Try "walking meetings" when discussing concepts with peers
-
----
-
-## Adopt a project-based approach
-
-- Instead of abstract learning, build something concrete
-- Start a small personal project using the technology you're learning
-- Contribute to open-source projects that use the concepts you're studying
-- Build a portfolio of mini-applications demonstrating different aspects of what you're learning
+Let’s keep learning—and building—together! 🎉
