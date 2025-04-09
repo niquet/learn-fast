@@ -6,15 +6,21 @@ A neurodivergent-friendly framework for learning new concepts while staying prod
 
 ## TL;DR
 
-1. :dart: **Clarify Your Purpose:** What problem are you solving? What’s the smallest thing you can build to make progress?
-2. :white_check_mark: **Isolate and Break It Down:** Focus on one concept or problem at a time. Identify 3–5 key components or tasks.
-3. :rocket: **Create Proof of Concept(s):** Build small, quick experiments to test your understanding.
-4. :alarm_clock: **Timebox Your Learning:** Work in 25-minute sprints with short breaks.
-5. :hammer_and_wrench: **Build First, Research Second:** Start getting hands-on immediately; research only when stuck.
-6. :books: **Document & Reflect:** Write down what you learned and any gaps to revisit later.
-7. :mortar_board: **Teach It Back:** Share your learnings through PR reviews, blog posts, or open-source contributions.
+:dart: **Clarify Your Purpose:** What problem are you solving? What’s the smallest thing you can build to make progress?
 
-Key Takeaways:
+:white_check_mark: **Isolate and Break It Down:** Focus on one concept or problem at a time. Identify 3–5 key components or tasks.
+
+:rocket: **Create Proof of Concept(s):** Build small, quick experiments to test your understanding.
+
+:alarm_clock: **Timebox Your Learning:** Work in 25-minute sprints with short breaks.
+
+:hammer_and_wrench: **Build First, Research Second:** Start getting hands-on immediately; research only when stuck.
+
+:books: **Document & Reflect:** Write down what you learned and any gaps to revisit later.
+
+:mortar_board: **Teach It Back:** Share your learnings through PR reviews, blog posts, or open-source contributions.
+
+## Key Takeaways
 
 - Isolate the problem first, then create proof of concepts.
 - Use forums like StackOverflow before turning to AI tools, and only after clarifying your question.
@@ -68,8 +74,11 @@ Sound familiar? You’re not alone. The traditional ways we’re taught to learn
 This repository was born out of frustration with those challenges. Learn Fast is designed to help you:
 
 :white_check_mark: **Learn effectively** without getting sidetracked by unnecessary details or endless research spirals.
+
 :white_check_mark: **Stay productive** by focusing on real-world applications instead of abstract theory or passive study.
+
 :white_check_mark: **Build confidence** through small wins and incremental progress that reinforce what you’ve learned.
+
 :white_check_mark: **Develop lasting competence** by prioritizing understanding over AI-first problem-solving shortcuts.
 
 Whether you’re debugging a tricky issue, exploring a new technology, or mastering software design principles, this approach will help you learn fast while actually getting things done—without sacrificing depth or clarity along the way.
@@ -87,7 +96,9 @@ Focus on _the smallest amount of knowledge you need to solve a problem or build 
 Example: If you’re learning "observability," start with:
 
 :one: Collecting metrics for one service.
+
 :two: Visualizing those metrics in a dashboard.
+
 :three: Adding basic alerts.
 
 Once that’s working, expand incrementally (e.g., distributed tracing, log aggregation).
@@ -103,7 +114,9 @@ Example: Instead of reading endless articles about "design patterns," refactor o
 Avoid getting stuck in endless research or theory—it kills momentum and leaves you overwhelmed. Action-based learning helps you:
 
 :rocket: Retain concepts better by applying them immediately.
+
 :mag: Identify gaps in understanding naturally as you build.
+
 :dart: Stay motivated by creating something tangible.
 
 ## Usage
@@ -136,9 +149,9 @@ Before diving in, isolate what you’re trying to learn or solve. Focus on one c
 
 **Example for "distributed tracing":**
 
-1. Spans and trace IDs
-2. Context propagation between services
-3. Visualizing traces in a dashboard (e.g., Jaeger)
+1. Spans and trace IDs.
+2. Context propagation between services.
+3. Visualizing traces in a dashboard (e.g., Jaeger).
 
 If you’re unsure where to start, **try ADEPT** to get a sense of the topic:
 
@@ -248,41 +261,35 @@ Ask yourself:
 - What concepts do I struggle to explain to others?
 - Which errors or issues repeatedly challenge me?
 
-### Create a "No-AI Zone" for Core Skills
+### "No-AI Zone" for Core Skills
 
-Some skills should be mastered without relying on AI tools:
+Some skills should be practiced independently:
 
-- Identify foundational skills (e.g., debugging, version control).
-- Practice these regularly without assistance.
-- Use AI only for reviewing or validating after completing the work independently.
+- Debugging, version control, system design, etc.
+- Use AI only for reviewing or validating after completing work yourself.
 
 ### For Technical Topics
 
-- Decompose by functionality: Break down topics like "debugging" into smaller parts (e.g., setting breakpoints, reading stack traces).
-- Create a dependency tree: Identify which concepts depend on others.
-- Build a learning roadmap: Arrange subtopics from foundational to advanced.
-- Make each task concrete and actionable by using the the SMART Framework:
+- Break down topics into smaller parts (e.g., debugging → breakpoints, stack traces).
+Create a roadmap: Start with foundational concepts and build up.
 
 ### For Abstract Concepts
 
-- Find concrete implementations: For example, look at codebases that exemplify software design principles like SOLID.
-- Reverse-engineer examples: Study well-designed systems and identify the principles at work.
-- Apply to your own code: Refactor an existing project using what you’ve learned.
+- Study concrete implementations (e.g., codebases using SOLID principles).
+- Reverse-engineer examples to understand how they work.
+- Apply concepts by refactoring your own code.
 
-### Harness Hyperfocus & Creativity
+### Leverage Hyperfocus & Creativity
 
-Leverage neurodivergent strengths like hyperfocus and creative problem-solving:
-
-1. Identify your peak focus hours and schedule learning sessions during those times.
-2. Set clear, achievable goals for each session.
-3. Create connections between new concepts and what you already know—visualize how components interact in the bigger picture.
+1. Schedule sessions during peak focus hours.
+2. Set clear goals for each session.
+3. Connect new concepts to what you already know—visualize how they interact.
 
 ### Last But Not Least
 
-- Build a personal knowledge base—any format that works for you.
-- Regularly review and update your notes and code snippets.
-- Gamify progress by setting up rewards for milestones or turning learning into a game.
-- Use physical movement to process information (e.g., take short walks between sessions).
+- Build a personal knowledge base (e.g., GitHub, Notion, Obsidian).
+- Review and refine notes regularly.
+- Use physical movement (e.g., short walks, workouts) to process information.
 
 ## Wrap-Up & Next Steps
 
