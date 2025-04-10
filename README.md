@@ -295,7 +295,7 @@ Create a roadmap: Start with foundational concepts and build up.
 
 Mastering new concepts and solving problems effectively is about more than just completing tasks—it’s about building lasting competence. Some skills form the backbone of engineering expertise and should be learned independently of AI tools or automation. These are essential for developing mental models, problem-solving confidence, and adaptability in a rapidly evolving industry.
 
-For a detailed list of core skills every software engineer should master without AI, check out [LEARN.md](LEARN.md).
+For a short and sweet version of the Learn Fast process, check out [LEARN.md](LEARN.md).
 
 Experiment with the Learn Fast framework, adapt it to your needs, and share your feedback or improvements via Issues or Pull Requests.
 
